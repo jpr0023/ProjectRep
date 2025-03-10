@@ -1,1 +1,15 @@
-@import 'tailwindcss';
+@import "tailwindcss"; 
+@plugin "daisyui";
+
+h1 {
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding-top: 4%;
+  }
